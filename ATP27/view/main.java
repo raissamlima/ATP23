@@ -13,7 +13,7 @@ public class main {
         Filmes f2 = new Filmes();
         Series s1 = new Series();
 
-        // FILMES 
+        // FILMES
         f1.nome_filme = "Tomates Verdes Fritos";
         f1.atriz_principal = "Jessica Tandy";
         f1.duracao = "2h 10m";
@@ -32,10 +32,9 @@ public class main {
         fController.create(f2);
         fController.delete(f1);
         sController.create(s1);
-        
+
         System.out.println(f1);
         System.out.println(f2);
         System.out.println(s1);
     }
 }
-
